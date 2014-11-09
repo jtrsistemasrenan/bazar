@@ -7,5 +7,5 @@
  */
 
 class CategoriaDao {
-
+    private $nome;
 } 
