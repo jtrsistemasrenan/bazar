@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e82769a5-301b-456a-8e92-81e836aa032b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/dao/iDao.php" />
-    </list>
+    <list default="true" id="e82769a5-301b-456a-8e92-81e836aa032b" name="Default" comment="" />
     <ignored path="bazardemonteiro.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,19 +32,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iDao.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="iDao.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/dao/iDao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="2" selection-start="247" selection-end="247" vertical-scroll-proportion="0.32922536" vertical-offset="0" max-vertical-offset="568">
+            <state line="12" column="18" selection-start="170" selection-end="170" vertical-scroll-proportion="-7.730769" vertical-offset="3" max-vertical-offset="374">
+              <folding>
+                <element signature="e#6#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Anuncio.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/model/Anuncio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Usuario.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Usuario.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/model/Usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="7" selection-start="221" selection-end="221" vertical-scroll-proportion="-6.8076925" vertical-offset="27" max-vertical-offset="595">
+            <state line="13" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.29945055" vertical-offset="27" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -138,6 +147,10 @@
               <option name="myItemId" value="www" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -154,6 +167,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,7 +232,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -246,13 +273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/model/Usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="221" selection-end="221" vertical-scroll-proportion="-6.8076925" vertical-offset="27" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/core/iFachada.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="255">
@@ -262,7 +282,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/dao/iDao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="247" selection-end="247" vertical-scroll-proportion="0.32922536" vertical-offset="0" max-vertical-offset="568">
+        <state line="12" column="18" selection-start="170" selection-end="170" vertical-scroll-proportion="-7.730769" vertical-offset="3" max-vertical-offset="374">
+          <folding>
+            <element signature="e#6#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/model/Anuncio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/model/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.29945055" vertical-offset="27" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
