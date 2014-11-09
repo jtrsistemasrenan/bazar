@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e82769a5-301b-456a-8e92-81e836aa032b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/model/Usuario.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/core/iFachada.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\Core\BazarFachada.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\Core\iFachada.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\Core\newPHPClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\class.phpmailer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\class.pop3.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\class.smtp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\Callback_function_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\DomainKeys_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\Note_for_SMTP_debugging.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\extending.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\faq.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\makedocs2.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\classes.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\classes\PHPMailer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\classes\POP3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\classes\SMTP.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\classes\phpmailerException.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\css\bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\css\bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\css\jquery.iviewer.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\css\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\css\template.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\deprecated.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\errors.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\graph_class.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\apple-touch-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\apple-touch-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\class.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\constant.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\file-php.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\file.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\function.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\icon-folder-open-big.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\icon-th-big.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\icon_template.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\interface.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\method.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\ok.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\property.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\search.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\variable.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\view_source.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\visibility_private.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\visibility_protected.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\icons\visibility_public.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\grab.cur" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\hand.cur" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.rotate_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.rotate_right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.zoom_fit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.zoom_fit2.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.zoom_in.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.zoom_in2.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.zoom_out.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.zoom_out2.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.zoom_zero.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\iviewer\iviewer.zoom_zero2.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\img\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\SVGPan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery-1.4.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery-ui-1.8.2.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery.iviewer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery.iviewer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery.mousewheel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery.panzoom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery.splitter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery.tools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\jquery.treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\menu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-apollo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-clj.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-go.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-hs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-lisp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-lua.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-n.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-proto.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-scala.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-sql.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-tex.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-vb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-vhdl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-wiki.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-xq.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\lang-yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\prettify\prettify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\js\template.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\markers.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\namespaces\global.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\packages\PHPMailer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\phpdoc\structure.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\pop3_article.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\docs\use_gmail.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\contents.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\images\phpmailer.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\images\phpmailer_mini.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_db_smtp_basic.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_mail_advanced.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_mail_basic.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_pop_before_smtp_advanced.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_pop_before_smtp_basic.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_sendmail_advanced.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_sendmail_basic.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_smtp_advanced.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_smtp_advanced_no_auth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_smtp_basic.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_smtp_basic_no_auth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_smtp_gmail_advanced.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\examples\test_smtp_gmail_basic.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\extras\class.html2text.inc" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\extras\htmlfilter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\extras\ntlm_sasl_client.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-ar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-br.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-ca.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-ch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-cz.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-de.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-dk.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-es.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-et.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-fi.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-fo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-fr.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-hu.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-it.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-ja.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-nl.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-no.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-pl.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-ro.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-ru.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-se.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-sk.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-tr.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-zh.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\language\phpmailer.lang-zh_cn.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test\contents.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test\phpmailerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test\test.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test\test_callback.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test\testemail.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\LGPLv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\contents.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\images\aikido.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\images\bkgrnd.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\images\phpmailer.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\clipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushBash.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushCSharp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushCpp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushCss.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushDelphi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushDiff.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushGroovy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushJScript.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushJava.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushPerl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushPhp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushPlain.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushPython.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushRuby.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushScala.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushSql.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushVb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shBrushXml.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\scripts\shLegacy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\src\shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\src\shLegacy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\help.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\magnifier.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\page_white_code.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\page_white_copy.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\printer.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\shCore.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\shThemeDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\shThemeDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\shThemeEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\shThemeFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\shThemeMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\shThemeRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\styles\wrapping.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\PHPMailer\test_script\test.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\acao\AnuncioAcao.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\acao\UsuarioAcao.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\css\estilo.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\dao\AnuncioDao.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\dao\CategoriaDao.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\dao\CategoriaDaoNovo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\dao\Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\dao\ImagemDao.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\dao\SubCategoriaDao.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\dao\TelefoneDao.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\dao\UsuarioDao.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\dao\iDao.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\entidades\Anuncio.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\entidades\Categoria.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\entidades\Imagem.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\entidades\Usuario.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\9cpg2i761qfgadjtvbbml2n8c6lavadoura01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\9cpg2i761qfgadjtvbbml2n8c6lavadoura02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\9cpg2i761qfgadjtvbbml2n8c6lavadoura03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\no_image.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3lavadoura01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3lavadoura02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3lavadoura03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3livro_java_use a cabeca01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3livro_java_use a cabeca02" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3livro_java_use a cabeca03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3microondas01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3microondas02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3microondas03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3notebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3notebook02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3notebook03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3ventilador01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3ventilador02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3ventilador03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3xbox01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3xbox02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\images\o0nnqkcurrsnep4e62hmv810p3xbox03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\nbproject\customs.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\nbproject\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\nbproject\project.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\teste.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\upload\file_delete_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\upload\file_upload_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\view\AnuncioCadastroView.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\view\AnuncioEditaView.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\view\AnuncioListaMContaView.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\view\AnuncioListaView.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\view\AnuncioPageView.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\view\ImagemCadastroView.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\view\MinhaContaView.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\view\UsuarioCadastroView.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\bazardemonteiro2\view\UsuarioLoginView.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="bazardemonteiro.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="bazardemonteiro" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="iFachada.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/core/iFachada.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="340">
+              <folding>
+                <element signature="e#6#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Usuario.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/model/Usuario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.18994413" vertical-offset="0" max-vertical-offset="716">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Core/BazarFachada.php" />
+        <option value="$PROJECT_DIR$/dao/iDao.php" />
+        <option value="$PROJECT_DIR$/dao/CategoriaDao.php" />
+        <option value="$PROJECT_DIR$/www/core/iFachada.php" />
+        <option value="$PROJECT_DIR$/www/model/Usuario.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bazardemonteiro2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e82769a5-301b-456a-8e92-81e836aa032b" name="Default" comment="" />
+      <created>1415489965496</created>
+      <updated>1415489965496</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3997396" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/core/iFachada.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="340">
+          <folding>
+            <element signature="e#6#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/model/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.18994413" vertical-offset="0" max-vertical-offset="716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
