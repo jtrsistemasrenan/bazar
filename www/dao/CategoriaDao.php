@@ -6,6 +6,7 @@
  * Time: 18:16
  */
 
-class CategoriaDao {
+include_once("iDao.php")
+class CategoriaDao implements iDao {
     private $nome;
 } 

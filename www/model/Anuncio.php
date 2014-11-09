@@ -5,7 +5,6 @@
  * Date: 09/11/14
  * Time: 18:10
  */
-
 class Anuncio {
 
     private $anunc_id,$descricao,$data_inicio,$visualizacoes,$titulo,$preco,$status,$data_fim,$usu_id,$cat_id;

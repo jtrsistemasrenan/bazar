@@ -8,10 +8,10 @@
 
 interface iDao {
 
-    public criar($obj);
-    public remover($obj);
-    public atualizar($objAntigo, $objNovo);
-    public listar();
-    public buscar($objId);
+    public function criar($obj);
+    public function remover($obj);
+    public function atualizar($objAntigo, $objNovo);
+    public function listar();
+    public function buscar($objId);
 
 } 

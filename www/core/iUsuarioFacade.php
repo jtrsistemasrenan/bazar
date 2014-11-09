@@ -6,6 +6,6 @@
  * Time: 19:32
  */
 
-class iUsuarioFacade {
+interface iUsuarioFacade {
 
 } 

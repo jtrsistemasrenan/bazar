@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f940817-ea47-49b3-8b3a-4f4244d85fce" name="Default" comment="comitt do bem">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/core/iAdminFacade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/core/iUsuarioFacade.php" />
       <change type="DELETED" beforePath="D:\bazar\bazar\.idea\bazardemonteiro.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/model/Anuncio.php" afterPath="$PROJECT_DIR$/www/model/Anuncio.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/dao/CategoriaDao.php" afterPath="$PROJECT_DIR$/www/dao/CategoriaDao.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/dao/iDao.php" afterPath="$PROJECT_DIR$/www/dao/iDao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/core/iFachada.php" afterPath="$PROJECT_DIR$/www/core/iFachada.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bazar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +32,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CategoriaDao.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CategoriaDao.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/dao/CategoriaDao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="126" selection-end="126" vertical-scroll-proportion="0.23351648" vertical-offset="0" max-vertical-offset="364">
+            <state line="10" column="18" selection-start="164" selection-end="164" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="289">
+              <folding>
+                <element signature="e#6#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iFachada.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/core/iFachada.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="3" selection-start="95" selection-end="95" vertical-scroll-proportion="0.18681319" vertical-offset="0" max-vertical-offset="1377">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iUsuarioFacade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/core/iUsuarioFacade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="2" selection-start="114" selection-end="114" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iAdminFacade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/core/iAdminFacade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Anuncio.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/model/Anuncio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="3213">
+              <folding>
+                <element signature="e#6#87#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iDao.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/dao/iDao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="22" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -52,6 +104,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/www/dao/CategoriaDao.php" />
+        <option value="$PROJECT_DIR$/www/model/Anuncio.php" />
+        <option value="$PROJECT_DIR$/www/dao/iDao.php" />
+        <option value="$PROJECT_DIR$/www/core/iUsuarioFacade.php" />
+        <option value="$PROJECT_DIR$/www/core/iFachada.php" />
       </list>
     </option>
   </component>
@@ -154,6 +210,10 @@
               <option name="myItemId" value="www" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -162,6 +222,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -232,9 +293,48 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/model/Anuncio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="3213">
+          <folding>
+            <element signature="e#6#87#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/dao/iDao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/dao/CategoriaDao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="126" selection-end="126" vertical-scroll-proportion="0.23351648" vertical-offset="0" max-vertical-offset="364">
+        <state line="10" column="18" selection-start="164" selection-end="164" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="289">
+          <folding>
+            <element signature="e#6#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/core/iAdminFacade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/core/iUsuarioFacade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2" selection-start="114" selection-end="114" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/core/iFachada.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="95" selection-end="95" vertical-scroll-proportion="0.18681319" vertical-offset="0" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
